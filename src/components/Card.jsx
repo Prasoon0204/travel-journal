@@ -5,7 +5,7 @@ const Card = (props) => {
         <img className="rounded-md w-full md:w-40" src={props.img.src} alt={props.img.alt} width={160} height={168}/>
         <div className="py-5">
             <div className="flex items-center mt-4">
-                <img className="mr-1" src="/src/assets/location.png" alt="location" width={12}/>
+                <img className="mr-1" src="/assets/location.png" alt="location" width={12}/>
                 <p className="pr-4 text-xs text-blue-950">{props.country}</p>
                 <a className="text-xs text-gray-400 underline" href={props.googleMapsLink}>View On Google Maps</a>
             </div>
