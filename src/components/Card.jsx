@@ -2,7 +2,7 @@
 const Card = (props) => {
   return (
     <div className="flex font-inter rounded-md m-16 gap-5">
-        <img className="rounded-md" src={props.img.src} alt={props.img.alt} width={140} height={168}/>
+        <img className="rounded-md" src={props.img.src} alt={props.img.alt} width={160} height={168}/>
         <div className="py-5">
             <div className="flex items-center mt-4">
                 <img className="mr-1" src="/src/assets/location.png" alt="location" width={12}/>
